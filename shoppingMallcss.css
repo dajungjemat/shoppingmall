@@ -18,7 +18,7 @@
     float: left;
     width: 240px;
     height: 100%;
-    background-color: lightgreen;
+    text-align: center;
 }
 #navi{
     float: right;
@@ -49,3 +49,6 @@
     background-color: lightgray;
 }
 /* ---------------------------------------------------------------------------- */
+#logo a img{
+    margin-top: 30px;
+}
