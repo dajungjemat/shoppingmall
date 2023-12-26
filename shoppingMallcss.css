@@ -3,49 +3,137 @@
     padding: 0;
 }
 
-#container{
+ul {
+    list-style: none;
+
+}
+
+li a {
+    text-decoration: none;
+}
+
+#container {
     margin: 0 30px;
     width: 1200px;
-    background-color: lightblue;
-    
+
 }
-#header{
+
+#header {
     width: 100%;
     height: 100px;
     background-color: lightcoral;
 }
-#logo{
+
+#logo {
     float: left;
     width: 240px;
     height: 100%;
     background-color: lightgreen;
 }
-#navi{
+
+#navi {
     float: right;
     background-color: lightseagreen;
     width: 800px;
     height: 100%;
 }
-#slider{
+
+#slider {
     width: 100%;
     height: 300px;
     background-color: lightcyan;
 }
-#contents{
+
+#contents {
+    margin: 10px auto;
     width: 100%;
     height: 200px;
-    background-color: lightgoldenrodyellow;
 }
-#tabMenu{
+
+#tabMenu {
     width: 400px;
     height: 100%;
-    background-color: olivedrab;
 }
 
 
-#footer{
+#footer {
     width: 100%;
     height: 100px;
     background-color: lightgray;
 }
+
 /* ---------------------------------------------------------------------------- */
+
+#tabMenu input[type="radio"] {
+    display: none;
+
+}
+
+#tabMenu label {
+    color: #551a8b;
+    border: 1px solid #eee;
+    background-color: #eee;
+    float: left;
+    padding: 5px 25px;
+}
+
+#tabMenu div {
+    border: 1px solid #eee;
+    float: left;
+    margin: 0;
+}
+
+#tabMenu div ul {
+    width: 360px;
+    padding: 10px;
+    margin: 8px 0;
+
+}
+
+#tabMenu div ul li {
+    padding: 6px 10px;
+}
+
+#tabMenu div ul li a:link,
+#tabMenu div ul li a:visited {
+    color: #551a8b;
+}
+
+#tabMenu div ul li a {
+    font-size: 14px;
+}
+
+#tabMenu div ul li span {
+    float: right;
+}
+
+#notice ul li:nth-child(even) {
+    background-color: rgba(114, 63, 251, 0.1);
+}
+
+#notice ul li:hover {
+    background-color: rgba(246, 182, 44, 0.1);
+}
+
+#notice ul {
+    display: none;
+}
+
+#gallery {
+    height: 100%s;
+}
+
+#gallery ul {
+
+float: left;
+
+}
+
+#gallery ul li {
+    float: left;
+    margin: 10px 5px;
+}
+
+#gallery ul li:hover{
+    opacity: 0.5;
+}
