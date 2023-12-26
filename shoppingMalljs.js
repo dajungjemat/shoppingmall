@@ -12,12 +12,11 @@ let now = 1;
 setInterval(function(){
     for(let i = 0;i<slideImg.length;i++){
         slideImg[i].style.display = "none";
-        slideImg[i].getAnimations()
-    } slideImg[now].style.display = "block";
+    } 
+    slideImg[now].style.display = "block";
     now++;
     
     if(now==slideImg.length){
-        now =0;
+        now = 0;
     }
-
 },2500)
