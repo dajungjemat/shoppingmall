@@ -45,11 +45,14 @@ li a {
     height: 300px;
     background-color: lightcyan;
 }
-
-#contents {
+#contents{
     margin: 10px auto;
     width: 100%;
     height: 200px;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #tabMenu {
@@ -198,4 +201,35 @@ li a {
     width: 1200px;
     height: 720px;
     background-color: rgba(0, 0, 0, 0.7);
+}
+/* ---------------------------------------------------------------------------- */
+
+.link{
+
+    width: 380px;
+    height: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    padding: 14px 14px;
+    background-color: #723ffb80;
+}
+.link{
+    background: url(resource/Contents/banner/banner.jpg) no-repeat;
+    background-size: cover;
+}
+.link:last-of-type{
+    background: url(resource/Contents/direct/direct.jpg) no-repeat;
+    background-size: cover;
+}
+.link a:hover{
+    color: #222328;
+    background-color: rgba(255,255,255,0.5);
 }
