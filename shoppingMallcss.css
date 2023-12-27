@@ -160,6 +160,8 @@ a {
 
 #navi ul li:hover > ul{
     display: block;
+    position: absolute;
+    z-index: 1;
     animation-name: topMenu;
     animation-duration: 1s;
 }
@@ -185,7 +187,6 @@ a {
 
 #slider{
     position: relative;
-    overflow: hidden;
 }
 
 #slider div a{
