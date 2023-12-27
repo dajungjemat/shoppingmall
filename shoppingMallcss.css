@@ -56,10 +56,15 @@ a{
     position: relative;
     overflow: hidden;
 }
+
 #slider div a{
     position: relative;
-
 }
+
+.slideImg{
+    transition: all 1s;
+}
+
 .imgTxt{
     background-color: rgba(0, 0, 0, 0.8);
     padding: 16px 100px;

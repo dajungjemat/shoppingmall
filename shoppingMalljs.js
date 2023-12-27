@@ -6,17 +6,20 @@
 //     n이 한계치일때 원점을 돌려주기
 // }
 
+
+
 let slideImg = document.getElementsByClassName("slideImg");
 let now = 1;
 
-setInterval(function(){
-    for(let i = 0;i<slideImg.length;i++){
+setInterval(function () {
+    for (let i = 0; i < slideImg.length; i++) {
         slideImg[i].style.display = "none";
-    } 
+    }
     slideImg[now].style.display = "block";
+
     now++;
-    
-    if(now==slideImg.length){
+
+    if (now == slideImg.length) {
         now = 0;
     }
-},2500)
+}, 2500)
