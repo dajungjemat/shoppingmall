@@ -187,6 +187,7 @@ a {
 
 #slider{
     position: relative;
+    overflow: hidden;
 }
 
 #slider div a{
