@@ -13,9 +13,9 @@ let now = 1;
 
 setInterval(function () {
     for (let i = 0; i < slideImg.length; i++) {
-        slideImg[i].style.display = "none";
+        slideImg[i].style.opacity = 0;
     }
-    slideImg[now].style.display = "block";
+    slideImg[now].style.opacity =1;
 
     now++;
 

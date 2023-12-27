@@ -195,6 +195,9 @@ a {
 
 .slideImg{
     transition: all 1s;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .imgTxt{
