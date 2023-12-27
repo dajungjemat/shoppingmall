@@ -44,7 +44,7 @@ a {
     float: left;
     width: 240px;
     height: 100%;
-    background-color: lightgreen;
+    text-align: center;
 }
 
 #navi {
@@ -337,4 +337,7 @@ a {
 #navi li a:link, #navi li a:visited {
     color: white;
 
+}
+#logo a img{
+    margin-top: 30px;
 }
