@@ -65,7 +65,7 @@ li a {
 /* ---------------------------------------------------------------------------- */
 
 #tabMenu input[type="radio"] {
-    display: none;
+    /* display: none; */
 
 }
 
@@ -75,6 +75,11 @@ li a {
     background-color: #eee;
     float: left;
     padding: 5px 25px;
+}
+
+#tabMenu input:checked{
+    background-color: white;
+    font-weight: bold;
 }
 
 #tabMenu div {
@@ -116,7 +121,7 @@ li a {
 }
 
 #notice ul {
-    display: none;
+    /* display: none; */
 }
 
 #gallery {
