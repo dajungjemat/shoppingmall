@@ -254,6 +254,7 @@ a {
 }
 
 #modal {
+    display: none;
     position: fixed;
     left: 30px;
     top: 0;
