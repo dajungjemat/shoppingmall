@@ -13,8 +13,10 @@ li a {
 }
 
 #container {
+    position: relative;
     margin: 0 30px;
     width: 1200px;
+    /* display: none; */
 
 }
 
@@ -65,7 +67,7 @@ li a {
 /* ---------------------------------------------------------------------------- */
 
 #tabMenu input[type="radio"] {
-    /* display: none; */
+    display: none;
 
 }
 
@@ -77,9 +79,8 @@ li a {
     padding: 5px 25px;
 }
 
-#tabMenu input:checked{
+#tabMenu label:hover {
     background-color: white;
-    font-weight: bold;
 }
 
 #tabMenu div {
@@ -125,12 +126,13 @@ li a {
 }
 
 #gallery {
+    display: none;
     height: 100%s;
 }
 
 #gallery ul {
 
-float: left;
+    float: left;
 
 }
 
@@ -139,6 +141,60 @@ float: left;
     margin: 10px 5px;
 }
 
-#gallery ul li:hover{
+#gallery ul li:hover {
     opacity: 0.5;
+}
+
+#noticeCheck:checked~label:first-of-type {
+    background-color: white;
+    font-weight: bold;
+}
+
+#galleryCheck:checked~label:last-of-type {
+    background-color: white;
+    font-weight: bold;
+
+}
+
+#modalTxt {
+    background-color: white;
+    width: 500px;
+    position: absolute;
+    left: 380px;
+    top: 120px;
+}
+
+#modalTxt h1 {
+    margin: 25px auto;
+    text-align: center;
+
+}
+
+#modalTxt p {
+    margin: 0 25px;
+    line-height: 23px;
+}
+
+#modalTxt button {
+    width: 450px;
+    height: 40px;
+    margin: 20px 25px;
+    background-color: #723ffb;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+#modalTxt button:hover {
+    background-color: rgba(114, 63, 251, 0.1);
+    color: #723ffb;
+}
+
+#modal {
+    position: fixed;
+    left: 30px;
+    top: 0;
+    width: 1200px;
+    height: 720px;
+    background-color: rgba(0, 0, 0, 0.7);
 }
